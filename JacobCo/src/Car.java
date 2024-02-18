@@ -1,8 +1,10 @@
+import java.util.List;
 public class Car {
     private String make;
     private String model;
     private int year;
     private double rentalRate;
+
 
     public Car(String make, String model, int year, double rentalRate) {
         this.make = make;
@@ -21,6 +23,8 @@ public class Car {
         System.out.println("Year: " + year);
         System.out.println("Rental Rate: " + rentalRate);
     }
+
+
 
     public double getRentalRate() {
         return rentalRate;
